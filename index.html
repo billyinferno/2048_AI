@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <title>2048 Game</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+   <div class="game_container">
+      <div class="header-container">
+         <div class="title-container"><h1 class="title">2048</h1></div>
+         <div class="score-container">
+            <div id="current_score" class="current-score">0</div>
+            <div id="added_score" class="added-score"></div>
+         </div>
+      </div>
+      <div id="instruction" class="message">press arrow key to move the block, press "A" to let AI play the game for you, press "P" to pause the AI, and press "R" to restart the game.</div>
+      <div id="grid_container" class="grid-container">
+         <div id="block_1" class="block-0"></div>
+         <div id="block_2" class="block-0"></div>
+         <div id="block_3" class="block-0"></div>
+         <div id="block_4" class="block-0"></div>
+         <div id="block_5" class="block-0"></div>
+         <div id="block_6" class="block-0"></div>
+         <div id="block_7" class="block-0"></div>
+         <div id="block_8" class="block-0"></div>
+         <div id="block_9" class="block-0"></div>
+         <div id="block_10" class="block-0"></div>
+         <div id="block_11" class="block-0"></div>
+         <div id="block_12" class="block-0"></div>
+         <div id="block_13" class="block-0"></div>
+         <div id="block_14" class="block-0"></div>
+         <div id="block_15" class="block-0"></div>
+         <div id="block_16" class="block-0"></div>
+      </div>
+      <div id="tile_container" class="tile-container">
+      </div>
+      <div id="game_message">Winner!</div>
+   </div>
+   <script src="main.js"></script>
+   <script src="polyframe.js"></script>
+</body>
+</html>
